@@ -71,3 +71,8 @@ which inspired this gem.
 ## Licence
 
 MIT
+
+## TODO
+
+ * Use OpenStruct instead of Hash http://ruby-doc.org/stdlib-1.9.3/libdoc/ostruct/rdoc/OpenStruct.html
+ * Add WebMock for tests: http://robots.thoughtbot.com/how-to-stub-external-services-in-tests
