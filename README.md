@@ -62,6 +62,13 @@ postcode = YmPostcode::Postcode.lookup "S1 2BJ"
 #}
 ```
 
+There is also a #lookup_many method which takes up to 100 postcodes and returns
+the results in one API request
+
+```ruby
+postcode = YmPostcode::Postcode.lookup_many ["S1 2BJ", "S1 2BZ"]
+```
+
 ## Credits
 
 Thanks to the ideal-postcodes.co.uk team for providing http://www.postcodes.io
